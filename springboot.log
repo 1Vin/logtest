@@ -1,0 +1,11 @@
+2021-03-05 16:56:24.529  INFO 6280 --- [main] com.log_test.demo.DemoApplicationTests   : Starting DemoApplicationTests using Java 1.8.0_131 on DESKTOP-8ROQ3KU with PID 6280 (started by Abutterfly in D:\Users\Abutterfly\IdeaProjects\logtest)
+2021-03-05 16:56:24.529 DEBUG 6280 --- [main] com.log_test.demo.DemoApplicationTests   : Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-05 16:56:24.531  INFO 6280 --- [main] com.log_test.demo.DemoApplicationTests   : No active profile set, falling back to default profiles: default
+2021-03-05 16:56:25.277  INFO 6280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-05 16:56:25.511  INFO 6280 --- [main] com.log_test.demo.DemoApplicationTests   : Started DemoApplicationTests in 1.224 seconds (JVM running for 2.005)
+2021-03-05 16:56:25.656 TRACE 6280 --- [main] com.log_test.demo.DemoApplicationTests   : 这是trace日志
+2021-03-05 16:56:25.656 DEBUG 6280 --- [main] com.log_test.demo.DemoApplicationTests   : 这是debug日志
+2021-03-05 16:56:25.656  INFO 6280 --- [main] com.log_test.demo.DemoApplicationTests   : 这是info日志
+2021-03-05 16:56:25.656  WARN 6280 --- [main] com.log_test.demo.DemoApplicationTests   : 这是warn日志
+2021-03-05 16:56:25.656 ERROR 6280 --- [main] com.log_test.demo.DemoApplicationTests   : 这是error日志
+2021-03-05 16:56:25.667  INFO 6280 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
