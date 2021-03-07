@@ -19,7 +19,7 @@ class DemoApplicationTests {
         logger.trace("这是trace日志");
         logger.debug("这是debug日志");
         logger.info("这是info日志");
-        logger.warn("这是warn日志");
+        logger.warn("这是warn日志11");
         logger.error("这是error日志1");
     }
 
